@@ -11,4 +11,4 @@ Your script should print out a suitable message to the terminal indicating if th
 While you could hard-code the ID of the staff member that you wish to search for within the script, it would be nicer (and much more reusable) if you could pass an ID number to the script. For example:
 
 $ ./YOUR_SCRIPT_HERE.sh "001"
-# prints "Staff file found" to the terminal
+prints "Staff file found" to the terminal
