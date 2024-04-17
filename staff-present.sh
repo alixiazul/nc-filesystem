@@ -8,7 +8,7 @@
 # # prints "Staff file found" to the terminal
 
 #!/bin/bash
-if [ $# -lt $1 ]; then
+if [ $# -lt 1 ]; then
     echo "ID missing. Example of use: ./staff-present.sh 001"
     exit
 fi
