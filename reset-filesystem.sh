@@ -6,7 +6,7 @@ DEFAULT='\e[0m'
 
 CURR_DIR=$(basename "$(pwd)")
 
-if [ "$CURR_DIR" != "de-nc-filesystem" ]; then
+if [ "$CURR_DIR" != "nc-filesystem" ]; then
   echo -e "$RED ❗ To run this script you need to be in the de-nc-filesystem directory$DEFAULT"
 else
   echo -e "$RED > Removing current nc-filesystem 🗑️$DEFAULT"
